@@ -1,0 +1,46 @@
+{
+  "name": "pwcli",
+  "version": "1.2.2",
+  "description": "The command-line tool for pwdb",
+  "license": "MIT",
+  "repository": "pwcli",
+  "author": "Brian Carter <briancarter@chipsofttech.com>",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "bin": {
+    "pwdb": "bin/pwdb"
+  },
+  "scripts": {
+    "test": "eslint . && ava",
+    "start": "bin/pwdb"
+  },
+  "keywords": [
+    "pwdb",
+    "repl",
+    "cli",
+    "terminal",
+    "database",
+    "nosql"
+  ],
+  "dependencies": {
+    "cardinal": "^1.0.0",
+    "chalk": "^2.3.0",
+    "chokidar": "^1.6.1",
+    "circular-json": "^0.4.0",
+    "deasync": "^0.1.7",
+    "meow": "^3.7.0",
+    "pwdb": "1.8.0",
+    "ramda": "^0.25.0",
+    "vm2": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
