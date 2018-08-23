@@ -14,7 +14,7 @@ If running it from source code:
 
 To open from CLI with a datastore file, use:
 ```
-$ pwshell
+$ pwdb
 ```
 
 ```
