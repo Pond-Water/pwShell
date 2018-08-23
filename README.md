@@ -8,6 +8,10 @@ This is a command line interface to query and update data, like MongoDB Shell, b
 npm install -g pwcli
 ```
 
+If running it from source code:
+ node bin/pwdb
+
+
 ## Usage
 To open a datastore file, use:
 ```bash
