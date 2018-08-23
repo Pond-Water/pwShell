@@ -1,6 +1,6 @@
 {
-  "name": "pwcli",
-  "version": "1.2.2",
+  "name": "pw-cli",
+  "version": "1.3.0",
   "description": "The command-line tool for pwdb",
   "license": "MIT",
   "repository": "pwcli",

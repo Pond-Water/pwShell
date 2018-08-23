@@ -5,7 +5,7 @@ This is a command line interface to query and update data, like MongoDB Shell, b
 
 ## Install
 ```bash
-npm install -g pwcli
+npm install -g pw-cli
 ```
 
 If running it from source code:
