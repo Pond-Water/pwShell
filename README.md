@@ -1,4 +1,4 @@
-# pwcli
+# pwshell
 > The command-line tool for pwdb
 
 This is a command line interface to query and update data, like MongoDB Shell, but for pwdb.
