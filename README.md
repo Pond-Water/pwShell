@@ -5,17 +5,20 @@ This is a command line interface to query and update data, like MongoDB Shell, b
 
 ## Install
 ```bash
-npm install -g pw-cli
+npm install -g pwshell
 ```
 
+## Usage
 If running it from source code:
  node bin/pwdb
 
+To open from CLI with a datastore file, use:
+```
+$ pwshell
+```
 
-## Usage
-To open a datastore file, use:
-```bash
-$ pwdb foo.db
+```
+pwdb>.open test.db
 ```
 
 Inside the REPL, the datastore namespace is attached to the `db` global property.

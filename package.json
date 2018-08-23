@@ -1,5 +1,5 @@
 {
-  "name": "pw-cli",
+  "name": "pwshell",
   "version": "1.3.0",
   "description": "The command-line tool for pwdb",
   "license": "MIT",
