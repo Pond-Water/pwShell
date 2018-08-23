@@ -6,7 +6,7 @@
   "repository": "pwcli",
   "author": "Brian Carter <briancarter@chipsofttech.com>",
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 8.0.0"
   },
   "bin": {
     "pwdb": "bin/pwdb"
